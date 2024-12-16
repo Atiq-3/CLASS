@@ -21,8 +21,8 @@
             return sum;
         }
         let generatedOtp= code()
-        let otp=(prompt("enter otp"))
-        if(otp==generatedOtp){
+        let otp=Number(prompt("enter otp"))
+        if(otp===generatedOtp){
             console.log("user confirm")
 
         }else{
